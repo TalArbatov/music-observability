@@ -1,0 +1,120 @@
+Dashboard layout I would build
+You said “several” dashboards. I agree.
+
+Dashboard 1 — Library Ops
+This is your overview.
+
+Panels:
+
+total library size
+
+library size over time
+
+artist count
+
+album count
+
+track count
+
+file types breakdown
+
+files added per day
+
+last promotion time
+
+external drive free space
+
+Dashboard 2 — Ingest Quality
+This is the workflow dashboard.
+
+Panels:
+
+albums scanned per day
+
+pass / warn / fail over time
+
+top failure reasons
+
+missing albumartist count
+
+conflicting album values count
+
+missing date count
+
+suspicious auth verdict count
+
+cover-art failures
+
+auto-fixes applied over time
+
+Dashboard 3 — Backup Health
+Panels:
+
+last successful backup age
+
+backup duration
+
+bytes mirrored per run
+
+changed files per run
+
+rsync exit code
+
+primary vs backup size
+
+stale backup alert state
+
+Dashboard 4 — Disk / Host Health
+Panels:
+
+CPU / memory
+
+filesystem usage
+
+HDD temperature
+
+SMART health indicators
+
+IO wait
+
+mount presence for external drives
+
+Dashboard 5 — Plex Activity
+Panels:
+
+current active streams
+
+who is streaming now
+
+streams over time
+
+direct play vs transcode
+
+bandwidth over time
+
+top users
+
+stream duration
+
+live current sessions table
+
+recent errors/log volume
+
+Dashboard 6 — Soulseek / Nicotine Intake
+Panels:
+
+downloads completed over time
+
+downloaded bytes over time
+
+current queue size
+
+failures/timeouts
+
+ingest source volume by day
+
+recently completed acquisitions
+
+This last one depends on what Nicotine logs expose cleanly, but it is still worth doing.
+
+
